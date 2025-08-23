@@ -1,0 +1,5 @@
+body { font-family: Arial, sans-serif; max-width: 800px; margin: auto; padding: 2rem; background: #f9f9f9; color: #333; }
+header { text-align: center; padding: 1rem; }
+.logo { max-width: 150px; display: block; margin: auto; }
+.subtitle { font-style: italic; color: #555; }
+footer { text-align: center; margin-top: 2rem; font-size: 0.9em; color: #888; }
