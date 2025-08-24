@@ -1,45 +1,56 @@
+/* Global Styles */
 body {
-  font-family: Arial, sans-serif;
-  max-width: 800px;
-  margin: auto;
-  padding: 2rem;
-  background: #001f3f;
-  color: #f8f8f8;
+  background-color: #001f3f; /* Navy blue */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
+/* Header Section */
 header {
   text-align: center;
-  padding: 1rem;
+  padding: 2rem 1rem;
 }
 
 .logo {
-  max-width: 220px;
+  max-width: 250px;
   display: block;
   margin: 0 auto;
+}
+
+h1 {
+  color: #ffffff;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .subtitle {
   font-style: italic;
   color: #f8f8f8;
+  margin-top: 0;
 }
 
-footer {
+/* Main Content */
+main {
+  padding: 2rem 1.5rem;
   text-align: center;
-  margin-top: 2rem;
-  font-size: 0.9em;
-  color: #f8f8f8;
 }
 
 p, a {
   color: #f8f8f8;
   text-decoration: none;
+  font-size: 1.1rem;
 }
 
 a:hover {
   text-decoration: underline;
 }
-header img {
-  display: block;
-  margin: 0 auto;
-  max-width: 300px; /* or adjust as needed */
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 3rem;
+  padding: 1rem;
+  font-size: 0.9em;
+  color: #f8f8f8;
 }
